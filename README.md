@@ -9,7 +9,7 @@
 
 Real estate agencies in King County, Washington may be able to improve their advisory services by identifying important features that factor in home valuation based on relevant data. Doing so will allow real estate agents to provide more accurate prices to clients as supported by historical records. Using publicly available data, I describe patterns in real estate transactions such as features that likely drive prices.
 
-The [King County data](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) spans a year between 2014 and 2015 with over 21,000 real estate transactions and 21 features, of which the dependent variable to predict is `price`. A full description of all column features is provided along with other data files, available in the repository's [data folder](https://github.com/czarinagluna/regression-analysis-for-estimating-prices/tree/main/Data).
+The [King County data](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) spans a year between 2014 and 2015 with over 21,000 real estate transactions and 21 features, of which the dependent variable to predict is `price`. A full description of all column features is provided along with other data files, available in the repository's [data folder](https://github.com/czarinagluna/regression-analysis-for-estimating-prices/tree/main/data).
 
 **Exploratory Data Analysis**
 
