@@ -3,7 +3,7 @@
 
 ## Overview
 
--
+_
 
 ## Business and Data Understanding
 
@@ -47,13 +47,9 @@ I created choropleth maps ([map notebook](https://github.com/czarinagluna/regres
 
 To interact with the maps, please use the [notebook viewer](https://nbviewer.org/github/czarinagluna/regression-analysis-for-estimating-prices/blob/main/map.ipynb).
 
-**Feature Engineering**
-
--
-
 ## Data Modeling and Results
 
--
+Model Performance:
 
 ![](data/images/fig8.png)
 
