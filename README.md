@@ -45,6 +45,8 @@ Locate the highest priced houses in the data in the following map:
 
 I created choropleth maps ([map notebook](https://github.com/czarinagluna/regression-analysis-for-estimating-prices/blob/main/map.ipynb)) to further understand how house prices vary by location.
 
+![](data/images/fig7.png)
+
 To interact with the maps, please use the [notebook viewer](https://nbviewer.org/github/czarinagluna/regression-analysis-for-estimating-prices/blob/main/map.ipynb).
 
 ## Data Modeling and Results
