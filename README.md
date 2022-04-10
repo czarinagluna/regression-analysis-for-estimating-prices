@@ -13,17 +13,17 @@ The [King County data](https://www.kaggle.com/datasets/harlfoxem/housesalespredi
 
 **Exploratory Data Analysis**
 
-![](Data/images/fig2.png)
+![](data/images/fig2.png)
 
 The highest peaks in the number of houses sold per month happened in the seasons of spring and summer. The decline in the months that followed dropped to the lowest point at the first month of the new year. As for the price of houses sold per month, the values followed roughly the same pattern.
 
-![](Data/images/fig3.png)
+![](data/images/fig3.png)
 
 Price is strongly correlated with `sqft_living`, `grade`, `sqft_living15`, `bathrooms`, and `bathrooms`. 
 
 Let's visualize their relationships and distributions.
 
-![](Data/images/fig4.png)
+![](data/images/fig4.png)
 
 **Geospatial Mapping**
 
@@ -33,13 +33,13 @@ Let's visualize their relationships and distributions.
 
 Let's map the data points.
 
-![](Data/images/fig5.png)
+![](data/images/fig5.png)
 
 The concentrated geographic patterns reveal parts of the county populated by the more expensive houses represented by darker colors like the island at the center. The even more expensive houses sold for over a million dollars are located at about the same spots as the dark dots.
 
 Locate the highest priced houses in the data in the following map:
 
-![](Data/images/fig6.png)
+![](data/images/fig6.png)
 
 **Interactive Maps**
 
@@ -55,7 +55,7 @@ To interact with the maps, please use the [notebook viewer](https://nbviewer.org
 
 -
 
-![](Data/images/fig8.png)
+![](data/images/fig8.png)
 
 **Baseline to *Bestimate* Model**
 
@@ -65,7 +65,7 @@ The baseline model `simple_lr` significantly improved to the `poly_tuned_rf`, ou
 
 To visualize the significant difference, let's plot how far away the predictions of the baseline model are to the actual prices versus how much closer the predictions of the bestimate model are:
 
-![](Data/images/fig9.png)
+![](data/images/fig9.png)
 
 For advisory, the top five features with the highest mean feature importances to the model are:
 1. Square footage of living space
