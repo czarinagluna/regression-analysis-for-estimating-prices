@@ -1,5 +1,6 @@
-
 # Regression Analysis for Estimating Prices
+
+![header](data/images/gokhan-kara-rkiL2esY7yM-unsplash.jpg)
 
 ## Overview
 
