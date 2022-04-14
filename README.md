@@ -52,7 +52,7 @@ To interact with the maps, please use the [notebook viewer](https://nbviewer.org
 
 ## Data Modeling and Results
 
-The dependent variable `price` is continuous and so I iterate over regression models: from simple to multiple linear regression, ridge and lasso regression, decision trees and finally, random forests. For hyperparameter tuning, I perform grid search ([code](https://github.com/czarinagluna/regression-analysis-for-estimating-prices/blob/main/gridsearch.ipynb)) to find the optimal parameters of decision trees and random forests.
+I iterate over regression models to predict the dependent variable `price` that is continuous: from simple to multiple linear regression, ridge and lasso regression, decision trees to random forests. For hyperparameter tuning, I perform grid search ([code](https://github.com/czarinagluna/regression-analysis-for-estimating-prices/blob/main/gridsearch.ipynb)) to find the optimal parameters of decision trees and random forests.
 
 **Model Performance**
 
